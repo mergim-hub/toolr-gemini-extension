@@ -5,7 +5,7 @@
   "description": "Field workforce management and timekeeping inside Gemini CLI.",
   "mcpServers": {
     "toolr": {
-      "httpUrl": "https://api.mytoolr.com/mcp/timeclock",
+      "httpUrl": "https://api.dev.mytoolr.com/mcp/timeclock",
       "headers": {
         "Authorization": "Bearer ${TOOLR_API_TOKEN}"
       }
