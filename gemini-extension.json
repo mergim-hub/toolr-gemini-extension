@@ -1,0 +1,22 @@
+{
+  "name": "toolr",
+  "version": "1.0.0",
+  "displayName": "Toolr",
+  "description": "Field workforce management and timekeeping inside Gemini CLI.",
+  "mcpServers": {
+    "toolr": {
+      "httpUrl": "https://api.mytoolr.com/mcp/timeclock",
+      "headers": {
+        "Authorization": "Bearer ${TOOLR_API_TOKEN}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "Toolr API Token",
+      "description": "Your Toolr Bearer token. Log in at mytoolr.com to get it.",
+      "envVar": "TOOLR_API_TOKEN",
+      "sensitive": true
+    }
+  ]
+}
